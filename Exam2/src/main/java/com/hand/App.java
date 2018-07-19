@@ -43,10 +43,8 @@ class Calculate {
     }
 
 }
-public class App 
-{
-    public static void main( String[] args )
-    {
+public class App {
+    public static void main(String[] args) {
         User userA = new User("userA", 5000);
         User userB = new User("userB", 10000);
         User userC = new User("userC", 15000);
@@ -55,10 +53,10 @@ public class App
         userB.setShuiMoney(Calculate.Cal.CalMoney(userB.getSumMoney()));
         userC.setShuiMoney(Calculate.Cal.CalMoney(userC.getSumMoney()));
         userD.setShuiMoney(Calculate.Cal.CalMoney(userD.getSumMoney()));
-        System.out.println("userA需缴纳税费:"+userA.getShuiMoney());
-        System.out.println("userB需缴纳税费:"+userB.getShuiMoney());
-        System.out.println("userC需缴纳税费:"+userC.getShuiMoney());
-        System.out.println("userD需缴纳税费:"+userD.getShuiMoney());
+        System.out.println("userA需缴纳税费:" + userA.getShuiMoney());
+        System.out.println("userB需缴纳税费:" + userB.getShuiMoney());
+        System.out.println("userC需缴纳税费:" + userC.getShuiMoney());
+        System.out.println("userD需缴纳税费:" + userD.getShuiMoney());
 
     }
 }
