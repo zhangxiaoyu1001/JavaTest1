@@ -16,6 +16,7 @@ class Calculate {
     public double CalMoney(double sumMoney){
 
         double shuiMoney;
+        sumMoney=sumMoney-3500;
         if (sumMoney<=1500&&sumMoney>0){
             shuiMoney=sumMoney*0.03;
 
